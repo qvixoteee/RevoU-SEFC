@@ -1,0 +1,16 @@
+<DOCTYPE! html>
+    <head>
+        <title>Buy Ticket</title>
+    </head>
+    <body>
+        <h1> Buy Ticket</h1>
+        <p>Starting from 19 May 2023</p>
+        <p> 10 a.m (GMT +7 / Jakarta Local Time)</p>
+        <form>
+            <label for="name">Name: </label>
+            <input id="name" type="text">
+            <br>
+            <label  for="email">Email: </label>
+            <input id="email" type="email">
+        </form>
+    </body>
