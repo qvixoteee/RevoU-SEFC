@@ -2,46 +2,7 @@
 <html>
     <head>
         <Title>COLDPLAY MUSIC OF THE SPHERES WORLD TOUR 2023</Title>
-        <style>
-            table.videos_youtube {
-                margin-left: auto; 
-                margin-right: auto;
-            }
-            th, td {
-                padding: 15px;
-            }
-            .topnav a {
-                float: right;
-                color: #000000;
-                text-align: center;
-                padding: 14px 16px;
-                text-decoration: none;
-                font-size: 17px;
-            }
-            .topnav a:hover {
-                color: red;
-            }
-            main {
-                padding-left: 80px;
-                padding-right: 80px;
-            }
-            #youtube1 {
-                border-radius: 25px;
-            }
-            #youtube2 {
-                border-radius: 25px;
-            }
-            #table_price, th, td {
-                border: 1px solid black;
-            }
-            h1{
-                text-align: center;
-            }
-            #layout_panggung {
-                background-color: lightgrey;
-                justify-content: center;
-            }
-        </style>
+        <link rel="stylesheet" href="styles.css"
     </head>
     <body style="font-family: sans-serif;">
         <nav class="topnav">
@@ -49,9 +10,11 @@
             <a href="#videos"><b>VIDEOS</b></a>
             <a href="#news"><b>NEWS</b></a>
         </nav>
-        <div>
+        
+        <div id="banner">
         <img src="https://assets.loket.com/imgdir/2023-05-05/48/48f966262aea4deda759e8353bf5cabc2a0ac6a3127393267168104395.jpg" alt="COLDPLAY MUSIC OF THE SPHERES WORLD TOUR 2023" style= "width: 100%;">
         </div>
+        
         <main>
             <h1 id="news">News</h1>
                 <article>
@@ -65,12 +28,12 @@
             <table class="videos_youtube">
                 <th>
                     <a href="https://www.youtube.com/watch?v=Fpn1imb9qZg">
-                    <img ID="youtube1" src="https://assets.loket.com/imgdir/2023-05-04/43/43a4cce0486f0349d62e590ccf891f79207281ce727595774049988612.png" width="250px">
+                    <img ID="youtube1" src="https://assets.loket.com/imgdir/2023-05-04/43/43a4cce0486f0349d62e590ccf891f79207281ce727595774049988612.png" width="350px">
                     </a>
                 </th>
                 <th>
                     <a href="https://www.youtube.com/watch?v=YykjpeuMNEk">
-                    <img id="youtube2" src="https://assets.loket.com/imgdir/2023-05-04/55/555983d37d00cef8da8fd40f4c3e67f50d4c611c1506452427771162741.png" width="250px">
+                    <img id="youtube2" src="https://assets.loket.com/imgdir/2023-05-04/55/555983d37d00cef8da8fd40f4c3e67f50d4c611c1506452427771162741.png" width="350px">
                     </a>
                 </th>
             </table>
@@ -78,8 +41,8 @@
             <hr>
             <h1 id="layout">Layout</h1>
             <div id="layout_panggung" >
-            <img src="Image/layout.png" alt="Layout Panggung" style="width: 350px; align-items: center;">
-            </div>
+            <img src="Image/layout.png" alt="Layout Panggung" style="width: 450px; ">   
+            
             <table id="table_price">
                 <tr>
                     <th>Category</th>
@@ -118,6 +81,7 @@
                     <td><b>IDR 800.000</b></td>
                 </tr>
             </table>
+            </div>
         </main>
     </body>
 </html>

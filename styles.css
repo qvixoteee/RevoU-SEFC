@@ -1,0 +1,56 @@
+.videos_youtube {
+    margin-left: auto; 
+    margin-right: auto;
+}
+th, td {
+    padding: 15px;
+}
+.topnav a {
+    float: right;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+    color: red;
+}
+main {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+#youtube1 {
+    border-radius: 25px;
+}
+#youtube2 {
+    border-radius: 25px;
+}
+
+#table_price {
+    height: 460px;
+    align-items: center;
+
+}
+#table_price th  {
+    background-color:#7b1bb8;   
+    color: #ffff;
+}
+#table_price td {
+    background-color: #ffff;
+}
+h1{
+    text-align: center;
+}
+#layout_panggung {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    background-image: linear-gradient(#000000,#a841ea);
+    padding: 10px 10px 10px 10px;
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
